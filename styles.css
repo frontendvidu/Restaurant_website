@@ -6,3 +6,88 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+header {
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  margin: 10px auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  margin-left: 199px;
+  margin-right: 297px;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_left,
+.hero_right {
+  width: 50%;
+}
+
+.hero_left {
+  background-color: azure;
+  padding-left: 150px;
+}
+
+.hero_left h1 {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 145.5%;
+}
+
+.hero_left p {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 170.5%;
+  color: rgba(74, 74, 74, 1);
+}
+
+.hero_buttons .order_now {
+  background-color: rgba(57, 219, 74, 1);
+  border: none;
+  border-radius: 40px;
+  width: 229px;
+  height: 80px;
+  box-shadow: -2px 22px 38px 0 rgba(142, 255, 154, 0.5);
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.hero_buttons .watch_video {
+  background-color: transparent;
+  border: none;
+  border-radius: 40px;
+  width: 229px;
+  height: 80px;
+  color: rgba(77, 77, 77, 1);
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.hero_right {
+  background-color: blueviolet;
+  height: inherit;
+}
+
+.hero_right .green {
+  background-color: rgba(83, 236, 98, 1);
+  width: 662.7px;
+  height: 653.97px;
+  border-radius: 50%;
+  border: none;
+}
