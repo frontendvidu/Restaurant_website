@@ -228,7 +228,6 @@ header nav a {
 
 .dishes span {
   width: 100%;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,7 +240,16 @@ header nav a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: yellowgreen;
 }
 
-.dishes .prices;
+.dishes .prices p:nth-child(1) {
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.dishes .prices p:nth-child(2) {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(69, 69, 69, 1);
+}
