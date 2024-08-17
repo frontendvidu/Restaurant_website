@@ -150,6 +150,8 @@ header nav a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  padding: 152px;
 }
 
 .red_subtopic {
@@ -252,4 +254,16 @@ header nav a {
   font-weight: 500;
   font-size: 24px;
   color: rgba(69, 69, 69, 1);
+}
+
+#testimonials {
+  padding: 152px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial_left {
+  background: url(images/chef.png);
 }
