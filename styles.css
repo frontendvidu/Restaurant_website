@@ -250,7 +250,7 @@ header nav a {
   color: rgba(0, 0, 0, 1);
 }
 
-.dishes .prices p:nth-child(2) {
+.rating {
   font-weight: 500;
   font-size: 24px;
   color: rgba(69, 69, 69, 1);
@@ -260,10 +260,63 @@ header nav a {
   padding: 152px;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 }
 
 .testimonial_left {
   background: url(images/chef.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+}
+
+.testimonial_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.testimonial_right_p {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 159%;
+  color: rgba(85, 85, 85, 1);
+  margin-top: 29px;
+  margin-bottom: 67px;
+}
+
+.review_section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.review_section img {
+  width: 194px;
+  height: 80px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.testimonial_right span div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.customer_feedback {
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+}
+
+.rating span {
+  color: rgba(128, 126, 126, 1);
+  font-size: 24px;
+  font-weight: 500;
 }
